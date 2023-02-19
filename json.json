@@ -1,0 +1,41 @@
+[
+    {
+    "name":"Apartments",
+    "h4Text":"SEO Analysis & Daily Reports",
+    "para1":"praesentium Qui maiores sunt qui magnam nostrum et quod odio et voluptatem molestiae et eaque fugit. Ab saepe ipsa qui amet laborum sit accusamus quidem aut veritatis totam.",
+    "para2":"voluptatem molestiae et eaque fugit. Ab saepe ipsa qui amet laborum sit accusamus quidem aut veritatis totam.",
+
+    "img":"images/services-image.jpg"
+},
+{
+    "name":"Food&Life",
+    "h4Text":"Healthy Food & Life",
+    "para1":"Est repudiandae cumque sit impedit iste ea quod repudiandae et delectus ipsam eum voluptas harum. 33 perspiciatis internos et beatae nulla At odit rerum vel quia voluptatem.",
+    "para2":"et delectus ipsam eum voluptas harum. 33 perspiciatis internos et beatae nulla At odit rerum vel quia voluptatem.",
+
+    "img":"images/services-image-02.jpg"
+},
+{
+    "name":"Cars",
+    "h4Text":"Car Re-search & Transport",
+    "para1":"voluptatem a harum magni sed perspiciatis voluptatem qui debitis dolorem. Ea doloribus perspiciatis est exercitationem ipsa et laborum voluptates est voluptatem aperiam",
+    "para2":"doloribus perspiciatis est exercitationem ipsa et laborum voluptates est voluptatem aperiam et porro dolor",
+    "img":"images/services-image-03.jpg"
+},
+{
+    "name":"Shopping",
+    "h4Text":"Online Shopping & Tracking ID",
+    "para1":"Est ratione itaque et dignissimos consequuntur in optio saepe. Ad enim quia a eveniet voluptatem ut quos dolor ab perspiciatis nihil cum soluta magni. Sit voluptates eius id voluptatum",
+    "para2":"eveniet voluptatem ut quos dolor ab perspiciatis nihil cum soluta magni. Sit voluptates eius id voluptatum",
+    "img":"images/services-image-04.jpg"
+},
+{
+    "name":"Traveling",
+    "h4Text":"Enjoy & Travel",
+    "para1":"rerum id voluptatem reprehenderit ut natus blanditiis qui esse quos aut facilis corporis. At impedit eius et quod sequi aut possimus error sit facilis corrupti et culpa velit eum quis corrupti. ",
+    "para2":"corporis. At impedit eius et quod sequi aut possimus error sit facilis corrupti et culpa velit eum quis corrupti.",
+    "img":"images/services-image.jpg"
+}
+
+
+]
