@@ -1196,6 +1196,7 @@ button:hover {
   margin-bottom: 1.25rem;
 }
 .blog .content-container .first-col {
+  background: white;
   width: 95%;
   max-height: 95%;
   min-height: 350px;
