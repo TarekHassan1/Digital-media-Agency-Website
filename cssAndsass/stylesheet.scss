@@ -29,11 +29,11 @@
   -o-transform: translate($trans1,$tran2);
 }
 .h5 {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 700;
   color: #726ae3;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 p.on-page {
@@ -44,7 +44,7 @@ font-size: 1rem;
 h2.h1 {
 line-height: 1.7;
 font-weight: 700;
-margin-bottom: 60px;
+margin-bottom: 3.7rem;
 span:last-child {
 color: #726ae3;
 }
@@ -91,7 +91,7 @@ left: 0;
   }
 }
 .ul-2-nav-1 {
-  margin-right: 10px;
+  margin-right: 0.65rem;
   & li a {
     width: 32px;
     height: 32px;
@@ -99,7 +99,7 @@ left: 0;
     background-color: var(--secondary-color);
     color: white;
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 0.65rem;
 
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -149,20 +149,20 @@ left: 0;
   background-color: white;
 }
 .btn-container {
-  margin-left: 10px;
+  margin-left: 0.65rem;
 }
 button.with-hover-efect {
   @include reverse-main-color();
   outline: none;
-  padding: 5px;
+  padding: 0.3125rem;
   height: 40px;
   width: 120px;
   border: 0.7px solid var(--main-color);
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
+  border-radius: 1.6rem;
+  -webkit-border-radius: 1.6rem;
+  -moz-border-radius: 1.6rem;
+  -ms-border-radius: 1.6rem;
+  -o-border-radius: 1.6rem;
   transition: 1s;
   -webkit-transition: 1s;
   -moz-transition: 1s;
@@ -216,7 +216,7 @@ button:hover {
 }
 
 .menu {
-  padding: 20px;
+  padding: 1.25rem;
   cursor: pointer;
   width: fit-content;
   transition: 2s;
@@ -295,7 +295,7 @@ button:hover {
       ////
       & li a {
         background-color: #f7f7f7;
-        padding: 15px;
+        padding: 1rem;
         border-bottom: 2px solid #e7e7e7;
         font-weight: 600;
       }
@@ -340,9 +340,9 @@ button:hover {
   }
 
   .home-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin-left: 40px;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    margin-left: 2.5rem;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -358,8 +358,8 @@ button:hover {
       -ms-transition: 0.8s ease-in-out;
       -o-transition: 0.8s ease-in-out;
 
-    padding-bottom: 40px;
-    margin-right: -20px;
+    padding-bottom: 2.5rem;
+    margin-right: -1.25rem;
     width: 95%;
     max-width: 100%;
 
@@ -427,7 +427,7 @@ button:hover {
         justify-content: center;
         align-items: center;
         button {
-          margin-left: 60px;
+          margin-left: 3.7rem;
         }
       }
 
@@ -476,25 +476,25 @@ button:hover {
           -o-transform: translateX(0%);
   }
         @media (min-width:991px) {
-          margin-left: 40px;
+          margin-left: 2.5rem;
 
         }
 
-        margin-top: 120px;
+        margin-top: 7.5rem;
         line-height: 2;
         .circles {
-          margin-top: 60px;
-          margin-left: 90px;
+          margin-top: 3.7rem;
+          margin-left: 5.625rem;
           @include centering();
           flex-direction: row;
 
           @media (max-width: 575px) {
             flex-direction: column;
-            margin-left: 120px;
+            margin-left: 7.5rem;
             .first,
             .second,
             .third {
-              margin-bottom: 20px;
+              margin-bottom: 1.25rem;
             }
 
           }
@@ -512,9 +512,9 @@ button:hover {
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
             // border: 5px solid red;
-            margin-right: 120px;
+            margin-right: 7.5rem;
             @media (min-width:575px) {
-                margin-right: 90px;
+                margin-right: 5.625rem;
               
             
             }
@@ -572,7 +572,7 @@ button:hover {
       }
       @media (min-width:991px) and (max-width:1199px) {
           
-        margin-left: 15px;
+        margin-left: 1rem;
         .img-container{
           img{
             width: 90%;
@@ -580,7 +580,7 @@ button:hover {
         }
         }
         .text-content{
-          margin-left: 10px;
+          margin-left: 0.65rem;
           width: 87%;
         }
         .text-content .circles{
@@ -616,8 +616,8 @@ button:hover {
 .services{
 
   position: relative;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 5rem;
+  padding-bottom: 3.1rem;
   .text.head:first-child{
     @include hide-transform(0px,-120px,0.6s);
 
@@ -633,7 +633,7 @@ button:hover {
   .text
 {
   
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 
     h2.h1{
       span:first-child::after{
@@ -643,7 +643,7 @@ button:hover {
     }
   }
   .categories{
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
     // flex-wrap: wrap;
     .category{
       display: inline-block;
@@ -653,27 +653,27 @@ button:hover {
       -ms-transition: 0.5s;
       -o-transition: 0.5s;
       cursor: pointer;
-      padding: 20px;
+      padding: 1.25rem;
       width: calc(80% / 6);
       // height: 150px;
-      margin-right: 10px;
-      border-radius: 10px;
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10px;
-      -ms-border-radius: 10px;
-      -o-border-radius: 10px;
+      margin-right: 0.65rem;
+      border-radius: 0.65rem;
+      -webkit-border-radius: 0.65rem;
+      -moz-border-radius: 0.65rem;
+      -ms-border-radius: 0.65rem;
+      -o-border-radius: 0.65rem;
       &.shadow
 {
-        box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+        box-shadow: 0px 0px 1rem 0px rgb(0 0 0 / 10%);
         background-color: white;
 
       }
 }
     .category p{
       font-weight: 700;
-      font-size: 16px;
+      font-size: 1rem;
       @media (min-width:1200px) {
-        font-size: 20px;
+        font-size: 1.25rem;
       }
     }
   }
@@ -681,14 +681,14 @@ button:hover {
   .content{
     max-width: 90%;
     height: 500px;
-    padding: 60px;
+    padding: 3.7rem;
     margin-left: auto;
     margin-right: auto;
-    border-radius:10px;
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    -ms-border-radius:10px;
-    -o-border-radius:10px;
+    border-radius:0.65rem;
+    -webkit-border-radius:0.65rem;
+    -moz-border-radius:0.65rem;
+    -ms-border-radius:0.65rem;
+    -o-border-radius:0.65rem;
     overflow: hidden;
     transition: 1s;
     -webkit-transition: 1s;
@@ -697,7 +697,7 @@ button:hover {
     -o-transition: 1s;
     background-color: white;
     @include centering();
-    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 1rem 0px rgb(0 0 0 / 10%);
 &.active{
   transition: 1s;
   opacity: 1;
@@ -710,31 +710,31 @@ button:hover {
 {
 
   width: 50%;
-  padding-right: 60px;
+  padding-right: 3.7rem;
   padding-left:0px;
   h4
 {
   color: var(--main-color);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.1rem;
   line-height: 4;
 }
 p{
-  font-size: 15px;
+  font-size: 1rem;
 }
 div{
   display: flex;
   flex-wrap: wrap;
   span{
-    font-size: 15px;
+    font-size: 1rem;
     i{
-      margin-right: 5px;
+      margin-right: 0.3125rem;
       
     }
-    margin-right: 45px;
+    margin-right: 2.8rem;
 
   }
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
     }
     .img-container{
@@ -772,7 +772,7 @@ background-repeat: no-repeat;
     .categories{
       .category{
         p{
-          font-size: 13px;
+          font-size: 0.8rem;
         }
       }
     }
@@ -783,7 +783,7 @@ background-repeat: no-repeat;
     height: 150%;
     .text{
       width: 100%;
-      padding-left: 60px;
+      padding-left: 3.7rem;
     }
 
   }
@@ -794,14 +794,14 @@ background-repeat: no-repeat;
     .category{
       width: 17.333333%;
       p{
-        font-size: 13px;
+        font-size: 0.8rem;
       }
     }
   }
 
 .content{
   .text{
-    padding-left: 30px;
+    padding-left: 1.86rem;
   }
 }
 }
@@ -809,17 +809,17 @@ background-repeat: no-repeat;
   .categories{
     .category{
       width: 28.333333%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
       p{
-        font-size: 11px;
+        font-size: 0.65rem;
       }
     }
   }
 .content{
   max-width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
   .text{
-    padding-left: 10px;
+    padding-left: 0.65rem;
   }
 }
 }
@@ -827,22 +827,22 @@ background-repeat: no-repeat;
   .categories{
     .category{
       width: 40.333333%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
       p{
-        font-size: 11px;
+        font-size: 0.65rem;
       }
     }
   }
 .content{
   max-width: 100%;
-  padding: 20px;
+  padding: 1.25rem;
   .text{
     display: none;
   }
   .img-container{
     img{
       max-width: 80%;
-      margin-left: 20px;
+      margin-left: 1.25rem;
     }
   }
 }
@@ -850,7 +850,7 @@ background-repeat: no-repeat;
 }
 // Subscribe section
 .subscribe{
-  padding-top: 120px;
+  padding-top: 7.5rem;
   overflow: hidden;
   background-image: url(../images/quote-bg.jpg);
   background-repeat: no-repeat;
@@ -897,7 +897,11 @@ background-repeat: no-repeat;
     width: 62.7%;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 100px;
+    border-radius:6.25rem;
+    -webkit-border-radius: 6.25rem;
+    -moz-border-radius: 6.25rem;
+    -ms-border-radius: 6.25rem;
+    -o-border-radius: 6.25rem;
     margin-top: 0;
     &.show
 {
@@ -908,10 +912,10 @@ background-repeat: no-repeat;
       outline: 0;
       border: 0px;
       border-bottom: 1px solid var(--secondary-color);
-      margin-right: 90px;
+      margin-right: 5.625rem;
       width: calc(60% / 2);
       min-width: 10%;
-      padding: 5px;
+      padding: 0.3125rem;
       background-color: transparent;
     }
 input:first-child{
@@ -923,11 +927,11 @@ input:first-child{
       min-width: 30%;
       max-width: 40%;
 
-      border-radius: 100px;
-      -webkit-border-radius: 100px;
-      -moz-border-radius: 100px;
-      -ms-border-radius: 100px;
-      -o-border-radius: 100px;
+      border-radius: 6.25rem;
+      -webkit-border-radius: 6.25rem;
+      -moz-border-radius: 6.25rem;
+      -ms-border-radius: 6.25rem;
+      -o-border-radius: 6.25rem;
       background-color: #726be3;
       color: white;
       height: 100%;
@@ -955,10 +959,10 @@ input:first-child{
   }
   @media (max-width:767px){
     .form{
-      font-size: 14px;
+      font-size: 0.8rem;
         input
               {
-                margin-right: 20px;
+                margin-right: 1.25rem;
         }
   }
 }
@@ -974,15 +978,15 @@ input:first-child{
       -moz-border-radius: 0px;
       -ms-border-radius: 0px;
       -o-border-radius: 0px;
-      border-top-left-radius: 40px;
-      border-top-right-radius: 40px;
+      border-top-left-radius: 2.5rem;
+      border-top-right-radius: 2.5rem;
 
 
             input
             {
               width: 100%;
               height: 70px;
-              padding: 30px;
+              padding: 1.86rem;
 
       }
   input:first-child{
@@ -996,8 +1000,8 @@ input:first-child{
         height: 75px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
-        border-bottom-right-radius: 40px;
-        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 2.5rem;
+        border-bottom-left-radius: 2.5rem;
   }
   
   }
@@ -1006,10 +1010,10 @@ input:first-child{
 }
 // Portfolio
 .portfolio{
-  padding-top: 125px;
+  padding-top: 7.8125rem;
   overflow: hidden;
 position: relative;
-padding-bottom: 120px;
+padding-bottom: 7.5rem;
 &::before{
   content: "";
   position: absolute;
@@ -1038,8 +1042,8 @@ padding-bottom: 120px;
   display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 60px;
-    margin-bottom: 35px;
+    margin-right: 3.7rem;
+    margin-bottom: 2.1rem;
     i{
       cursor: pointer;
       @include centering();
@@ -1052,8 +1056,8 @@ padding-bottom: 120px;
       width: 40px;
       height: 40px;
       color: white;
-      margin-right: 10px;
-      font-size: 20px;
+      margin-right: 0.65rem;
+      font-size: 1.25rem;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -1107,16 +1111,16 @@ padding-bottom: 120px;
   }
   .card{
     width: calc(100% - 100px / (5));
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+    margin-right: 0.65rem;
+    margin-left: 0.65rem;
+    border-radius: 2.5rem;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    -o-border-radius: 2.5rem;
     border: 0px ;
     cursor: pointer;
-    box-shadow: 0px 0px 15px 0px rgb(0, 0,0,10%);
+    box-shadow: 0px 0px 1rem 0px rgb(0, 0,0,10%);
 
     .card-body{
       span{
@@ -1134,7 +1138,7 @@ padding-bottom: 120px;
       display: none;
     }
     .card{
-      margin-left: 30px;
+      margin-left: 1.86rem;
     }
   }
 }
@@ -1157,8 +1161,8 @@ padding-bottom: 120px;
 // blog
 .blog{
   position: relative;
-padding-top: 60px;
-padding-bottom: 120px;
+padding-top: 3.7rem;
+padding-bottom: 7.5rem;
 .text{
   @include hide-transform(0px,-120px,0.6s);
 
@@ -1202,17 +1206,17 @@ h2.h1 span::after{
     display: grid;
     grid-template-columns: 1fr 1fr;
     .first-col,.second-col{
-      border-radius: 20px;
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      -ms-border-radius: 20px;
-      -o-border-radius: 20px;
+      border-radius: 1.25rem;
+      -webkit-border-radius: 1.25rem;
+      -moz-border-radius: 1.25rem;
+      -ms-border-radius: 1.25rem;
+      -o-border-radius: 1.25rem;
       img{
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
+        border-radius: 1.25rem;
+        -webkit-border-radius: 1.25rem;
+        -moz-border-radius: 1.25rem;
+        -ms-border-radius: 1.25rem;
+        -o-border-radius: 1.25rem;
 
 }
 
@@ -1228,27 +1232,27 @@ h2.h1 span::after{
       width: 120px;
       @include centering();
       height: 36px;
-      font-size: 15px;
-      border-radius: 30px;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      -ms-border-radius: 30px;
-      -o-border-radius: 30px;
+      font-size: 1rem;
+      border-radius: 1.86rem;
+      -webkit-border-radius: 1.86rem;
+      -moz-border-radius: 1.86rem;
+      -ms-border-radius: 1.86rem;
+      -o-border-radius: 1.86rem;
       min-width: 50%;
 }
     span:last-child{
       color: var(--secondary-color);
 }
     h3{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.5;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     }
     p{
-      font-size: 15px;
-      margin-bottom: 20px;
+      font-size: 1rem;
+      margin-bottom: 1.25rem;
 
     }
     .first-col{
@@ -1258,7 +1262,7 @@ h2.h1 span::after{
       min-height: 350px;
       margin-left: auto;
       margin-right: auto;
-      box-shadow: 0px 0px 15px 0px rgb(0, 0, 0 , 10%);
+      box-shadow: 0px 0px 1rem 0px rgb(0, 0, 0 , 10%);
       img
 
 {
@@ -1267,7 +1271,7 @@ h2.h1 span::after{
         border-bottom-right-radius: 0px;
       }
       .text-body{
-        padding: 40px;
+        padding: 2.5rem;
         .text{
           display: flex;
           justify-content: space-between;
@@ -1297,14 +1301,14 @@ h2.h1 span::after{
     > div{
       
       display: flex;
-      padding-right: 40px;
-      padding-left: 40px;
-      padding-bottom: 40px;
+      padding-right: 2.5rem;
+      padding-left: 2.5rem;
+      padding-bottom: 2.5rem;
       margin-bottom: 7px;
 
       .text-body{
-        padding-left: 30px;
-        padding-top: 20px;
+        padding-left: 1.86rem;
+        padding-top: 1.25rem;
         .text{
           display: flex;
           justify-content: space-between;
@@ -1326,7 +1330,7 @@ h2.h1 span::after{
     }
     .second-col{
       > div{
-        margin-bottom: 10px;
+        margin-bottom: 0.65rem;
         img{
           max-height: 200px;
         }
@@ -1339,12 +1343,12 @@ h2.h1 span::after{
             }
           }
           h3{
-            margin-top: 5px;
-            margin-bottom: 5px;
-            font-size: 16px;
+            margin-top: 0.3125rem;
+            margin-bottom: 0.3125rem;
+            font-size: 1rem;
           }
           p{
-            font-size: 14px;
+            font-size: 0.8rem;
           }
         }
       }
@@ -1361,7 +1365,7 @@ h2.h1 span::after{
   .first-col{
 
     max-width: 75%;
-    margin-bottom: 60px;
+    margin-bottom: 3.7rem;
 button{
   min-width: 35%;
 }
@@ -1377,10 +1381,10 @@ button{
       }
     }
     h3{
-      font-size: 20px;
+      font-size: 1.25rem;
     }
     p{
-      font-size: 17px;
+      font-size: 1rem;
     }
   }
  }
@@ -1403,16 +1407,16 @@ button{
 
     .text{
       span{
-        font-size: 12px;
+        font-size: 0.78rem;
       }
       span:first-child{
         min-width: 35%;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
       }
     }
     h3{
-      margin-top: 20px;
-      font-size: 13px;
+      margin-top: 1.25rem;
+      font-size: 0.8rem;
     }
     p{
       display: none;
@@ -1435,11 +1439,11 @@ button{
     }
   }
   h3{
-    font-size: 14px;
+    font-size: 0.85rem;
     
   }
   p{
-    font-size: 12px;
+    font-size: 0.75rem;
   }
       
     }
@@ -1453,15 +1457,15 @@ button{
   
   @include centering();
   flex-wrap: wrap;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+  box-shadow: 0px 0px 1rem 0px rgb(0 0 0 / 10%);
   padding-right: 0;
   padding-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   img
 {
     width: 100%;
@@ -1474,7 +1478,7 @@ button{
     margin-left: -20%;
   
     .text{
-      margin-top: 20px;
+      margin-top: 1.25rem;
     }
     h3{
       margin-top: 0;
@@ -1491,7 +1495,7 @@ button{
   .second-col{
     > div{
       .text-body{
-        padding-left: 20px;
+        padding-left: 1.25rem;
         max-width: 110%;
         .text{
           span:first-child{
@@ -1508,8 +1512,8 @@ button{
 
 .contact-us{
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 120px;
+  padding-top: 3.7rem;
+  padding-bottom: 7.5rem;
 
   .main-img{
     position: absolute;
@@ -1543,13 +1547,13 @@ h2.h1 span::after{
       -ms-transform: translate(0px);
       -o-transform: translate(0px);
 }
-    margin-top: 90px;
+    margin-top: 5.625rem;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1.3fr;
-    box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 1rem 0px rgb(0 0 0 / 10%);
     position: relative;
     &::before{
       content: "";
@@ -1580,11 +1584,11 @@ h2.h1 span::after{
         height: 100%;
         width: 100%;
 
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
+        border-radius: 1.25rem;
+        -webkit-border-radius: 1.25rem;
+        -moz-border-radius: 1.25rem;
+        -ms-border-radius: 1.25rem;
+        -o-border-radius: 1.25rem;
         border-top-right-radius: 0px;
         border-bottom-right-radius: 0px;
       }
@@ -1592,41 +1596,41 @@ h2.h1 span::after{
 .form-content{
   
 
-  padding: 40px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  padding: 2.5rem;
+  padding-top: 3.7rem;
+  padding-bottom: 3.7rem;
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
-  box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+  box-shadow: 0px 0px 1rem 0px rgb(0 0 0 / 10%);
   .contacts{
     width: 110%;
-margin-bottom: 40px;
+margin-bottom: 2.5rem;
 display: flex;
 flex-wrap: wrap;
     > div{
       text-align: center;
       display: inline-block;
-      padding: 30px;
-      box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+      padding: 1.86rem;
+      box-shadow: 0px 0px 1rem 0px rgb(0 0 0 / 10%);
 
       width: calc(85%/(3));
       min-width: calc(85%/(3));
-      padding-left: 10px;
-    padding-right: 10px;
+      padding-left: 0.65rem;
+    padding-right: 0.65rem;
 
-        border-radius: 20px;
-      -webkit-border-radius: 20px;
-      -moz-border-radius: 20px;
-      -ms-border-radius: 20px;
-      -o-border-radius: 20px;
-      margin-right: 20px;
+        border-radius: 1.25rem;
+      -webkit-border-radius: 1.25rem;
+      -moz-border-radius: 1.25rem;
+      -ms-border-radius: 1.25rem;
+      -o-border-radius: 1.25rem;
+      margin-right: 1.25rem;
       span{
-        margin-top: 15px;
+        margin-top: 1rem;
         display: block;
       }
     }
@@ -1636,9 +1640,9 @@ flex-wrap: wrap;
     grid-template-columns: 1fr 1fr;
     position: relative;
     .contact{
-      margin-right: 20px;
+      margin-right: 1.25rem;
       input{
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
       }
     }
 
@@ -1646,15 +1650,15 @@ flex-wrap: wrap;
       display: block;
       min-width: 90%;
       border: 0;
-      box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
-      border-radius: 40px;
-      padding: 20px;
-      margin-bottom: 30px;
-      -webkit-border-radius: 40px;
-      -moz-border-radius: 40px;
-      -ms-border-radius: 40px;
-      -o-border-radius: 40px;
-      margin-top: 30px;
+      box-shadow: 0px 0px 1rem 0px rgb(0 0 0 / 10%);
+      border-radius: 2.5rem;
+      padding: 1.25rem;
+      margin-bottom: 1.86rem;
+      -webkit-border-radius: 2.5rem;
+      -moz-border-radius: 2.5rem;
+      -ms-border-radius: 2.5rem;
+      -o-border-radius: 2.5rem;
+      margin-top: 1.86rem;
 
 }
 textarea{
@@ -1672,7 +1676,7 @@ textarea{
       margin-left: auto;
     height: 60px;
 text-align: center;
-padding: 20px;
+padding: 1.25rem;
   }
 
 }
@@ -1684,36 +1688,36 @@ padding: 20px;
     }
     .content-container{
       grid-template-columns: 1fr;
-      padding: 40px;
+      padding: 2.5rem;
       height: 2000px;
-      border-radius: 40px;
-      -webkit-border-radius: 40px;
-      -moz-border-radius: 40px;
-      -ms-border-radius: 40px;
-      -o-border-radius: 40px;
+      border-radius: 2.5rem;
+      -webkit-border-radius: 2.5rem;
+      -moz-border-radius: 2.5rem;
+      -ms-border-radius: 2.5rem;
+      -o-border-radius: 2.5rem;
       .map
 
 {
   min-height: 600px;
-        padding: 20px;
+        padding: 1.25rem;
         margin-left: auto;
         margin-right: auto;
   iframe{
-    border-radius: 40px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
+    border-radius: 2.5rem;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    -o-border-radius: 2.5rem;
 }
       }
       .form-content{
-        padding-left: 60px;
+        padding-left: 3.7rem;
 box-shadow: 0px 0px 0px 0px ;
         .contacts{
           > div{
             display: block;
             width: 90%;
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
           }
         }
         form{
@@ -1723,13 +1727,13 @@ box-shadow: 0px 0px 0px 0px ;
             input{
               width: 103%;
               height: 80%;
-              margin-bottom: 10px;
+              margin-bottom: 0.65rem;
             }
           }
           textarea{
             width: 100%;
             height: 80%;
-            margin-bottom: 10px;
+            margin-bottom: 0.65rem;
           }
         }
 
@@ -1738,9 +1742,9 @@ box-shadow: 0px 0px 0px 0px ;
   }
   @media (max-width:767px) {
     .content-container{
-      padding: 20px;
+      padding: 1.25rem;
       .form-content{
-        padding-left: 20px;
+        padding-left: 1.25rem;
         .contacts{
           > div{
             width: 100%;
@@ -1766,7 +1770,7 @@ footer{
   background-image: url(../images/footer-bg.jpg);
   background-repeat: no-repeat;
   color: white;
-  padding-top: 30px;
+  padding-top: 1.86rem;
   height: 75px;
   background-size: cover;
   p{
