@@ -1,3 +1,10 @@
+//  Any Window Width
+const mediaQuerySM = window.matchMedia('(max-width: 575px)');
+const mediaQueryMed = window.matchMedia('(max-width: 768px)');
+const mediaQuerylg = window.matchMedia('(max-width: 991px)');
+const mediaQueryXL = window.matchMedia('(max-width: 1199px)');
+const mediaQueryXXL = window.matchMedia('(min-width: 1200px)');
+
 // Nav - 2
 const menu = document.querySelector(".menu");
 const p1 = document.querySelectorAll(".p1");
@@ -71,20 +78,18 @@ menu.addEventListener("click", () => {
     p2.classList.toggle("hide");
 
     ulTest.classList.toggle("show");
-})
-function show_Border_Bottom(secName, minH, maxH) {
-    let windowHeight = window.scrollY;
-    ulTestLis.forEach((e) => {
-    if (windowHeight > minH && windowHeight < maxH) {
-        e.classList.remove("on-click-border");
-
-        if (e.textContent == secName) {
-            e.classList.add("on-click-border"); 
-    }
-
-    }       
+    ulTestLis.forEach(e =>{
+        e.onclick=()=>{
+            ulTest.classList.remove("show");
+            p1[0].classList.remove("transform-1");
+            p1[1].classList.remove("transform-2");
+            p2.classList.remove("hide");
+        }
     })
-}
+})
+
+  // Define the sections and their scroll range
+
 
 
 // Subscribe form
@@ -96,26 +101,40 @@ form.addEventListener("click", prevent);
     // 
     // All the element transform effects to all sections
 window.addEventListener("scroll",() => {
+    // border on element on scroll
+    const sections = document.querySelectorAll("section");
+    let current ="";
+    sections.forEach(sec =>{
+        const sectionTop=sec.offsetTop;
+        const sectionHeight=sec.clientWidth;
+        if(scrollY >= Math.floor(sectionTop - sectionHeight / 3)){
+            current=sec.getAttribute("id");
+        }
+    })
+    ulTestLis.forEach(li =>{
+        li.classList.remove("on-click-border");
+        if(li.getAttribute("href").substring(1) === current){
+            li.classList.add("on-click-border");
+        }
+    })
+    // End
+
     let windowHeight = window.scrollY;
     if (windowHeight > 60) {
         nav_2.classList.add("move-it-to-top");
     } else {
         nav_2.classList.remove("move-it-to-top");
     }
-    show_Border_Bottom("Home", 120, 650);
-    show_Border_Bottom("About", 651, 1300);
-    show_Border_Bottom("Services", 1380, 2300);
-    show_Border_Bottom("Projects", 2850, 3710);
-    show_Border_Bottom("Blog", 3750, 4740);
-    show_Border_Bottom("Contact", 4741, 5500);
+
     // Subscribe section show
+    if (windowHeight > 1025) {
+        servTxt.classList.add("show");
+    }
     if (windowHeight > 1500) {
         text.classList.add("show");
         form.classList.add("show");
     }
-    if (windowHeight > 1025) {
-        servTxt.classList.add("show");
-    }
+
     // Portfolio Section Show
     if (windowHeight > 2440) {
         portTxt.classList.add("show");
@@ -247,11 +266,6 @@ request.onreadystatechange =function () {
     }
 
 // portfolio functinos
-const mediaQuerySM = window.matchMedia('(max-width: 575px)');
-const mediaQueryMed = window.matchMedia('(max-width: 768px)');
-const mediaQuerylg = window.matchMedia('(max-width: 991px)');
-const mediaQueryXL = window.matchMedia('(max-width: 1199px)');
-const mediaQueryXXL = window.matchMedia('(min-width: 1200px)');
 
 
 let currentIndex=0;
